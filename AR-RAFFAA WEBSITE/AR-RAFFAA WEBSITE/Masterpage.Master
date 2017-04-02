@@ -13,6 +13,7 @@
     <form id="form1" runat="server">
     <div id="container">
             <header>
+                <!---This banner and logo is created using PhotoShop cs6-->
             <div id="banner">
             <asp:Image ID="Image1" runat="server" ImageUrl="Gallery/banner/Banner.jpg" AlternateText="Banner"/>
 

@@ -75,8 +75,9 @@ footer {
 }
 
 .contact{
-    margin :auto;
-    -webkit-box-sizing :border-box;
+    margin-left : 22em;
+    margin-top : 1em;
+    margin-bottom : 2em;
     
 
 }
@@ -89,20 +90,37 @@ footer {
 }
 
 h2{
-    text-align: center;
-    margin-bottom : 10px;
+    margin-left : 14em;
+    margin-bottom : 7px;
+    margin-top : 3em;
+    text-decoration : underline;
 }
 
-.contactbox {
-    width : 40px;
+h3{
+    margin-left : 19em;
+    margin-bottom : 7px;
 }
+
+p{
+    margin-left : 18em;
+    margin-bottom : 10px;
+    font-size : 20px;
+}
+
 
 tablecontact {
-    margin-bottom : 3em;
+    margin-bottom : 1em;
      box-sizing: border-box;
 }
 
-TxtEmail {
-    width : 200px;
-    height : 30px;
+#contactbutton{
+    font-size: 20px;
+}
+
+iframe {
+    width : 600px;
+    height : 450px;
+    border : 1px solid;
+    margin-left : 23em;
+
 }
