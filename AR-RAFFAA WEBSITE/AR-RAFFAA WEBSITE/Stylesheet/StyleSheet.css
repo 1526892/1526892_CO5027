@@ -13,6 +13,10 @@ container {
 
 }
 
+hr{
+    width : 80%;
+}
+
 header {
 
     text-align : center;
@@ -70,17 +74,35 @@ footer {
     display: block;
 }
 
+.contact{
+    margin :auto;
+    -webkit-box-sizing :border-box;
+    
 
-content {
-    text-align : center;
-    margin : auto;
 }
 
-contact {
-    text-align : center;
+.contactlabel{
+    font-size : 20px;
+    height : 20px;
+  
+    
 }
 
 h2{
     text-align: center;
+    margin-bottom : 10px;
 }
 
+.contactbox {
+    width : 40px;
+}
+
+tablecontact {
+    margin-bottom : 3em;
+     box-sizing: border-box;
+}
+
+TxtEmail {
+    width : 200px;
+    height : 30px;
+}

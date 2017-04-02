@@ -17,9 +17,7 @@
             <asp:Image ID="Image1" runat="server" ImageUrl="Gallery/banner/Banner.jpg" AlternateText="Banner"/>
 
             </div>
-            </header>
-
-            <hr />   
+            </header>  
 
         <nav>
 			<ul>
@@ -32,6 +30,7 @@
 			</ul>
 		</nav>
 
+        <hr /> 
         
         <asp:ContentPlaceHolder ID="body" runat="server">
         

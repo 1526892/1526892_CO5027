@@ -3,45 +3,63 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="body" runat="server">
     <h2>Contact Us</h2>
-    <table>
-          <tr>
-                <td class="Contact">Name : </td>
-                <td>
-                    <asp:TextBox ID="TxtName" runat="server"></asp:TextBox> 
-                </td>
-          </tr>
 
+    <section>
+        
+    <table class="contact">
+          <tr id ="tablecontact">
+                <td class ="contactlabel">Name : </td>
+                <td>
+                    <asp:TextBox ID="TxtName" runat="server" Height="30px" Width="250px" Placeholder="John Wick"></asp:TextBox> 
+                   
+                     <br />
+                </td>
+
+          </tr>
+            
         
           <tr>
-                <td class="Contact">Phone Number : </td>
+                <td class ="contactlabel">Phone Number : </td>
                 <td>
-                    <asp:TextBox ID="TxtPhone" runat="server"></asp:TextBox> 
+                    <asp:TextBox ID="TxtPhone" runat="server" Height="30px" Width="250px" Placeholder="8881212"></asp:TextBox> 
+                   
+                     <br />
                 </td>
           </tr>
 
 
           <tr>
-                <td class="Contact">Email : </td>
+                <td class ="contactlabel">Email address: </td>
                 <td>
-                    <asp:TextBox ID="TxtEmail" runat="server"></asp:TextBox> 
+                    <asp:TextBox ID="TxtEmail" runat="server" Height="30px" Width="250px" Placeholder="Example@gmail.com"></asp:TextBox>
+                   
+                     <br /> 
                 </td>
           </tr>
 
           <tr>
-                <td class="Contact">Subject : </td>
+                <td class ="contactlabel">Subject : </td>
                 <td>
-                    <asp:TextBox ID="TxtSubject" runat="server"></asp:TextBox> 
+                    <asp:TextBox ID="TxtSubject" runat="server" Height="30px" Width="250px" Placeholder="" OnTextChanged="TxtSubject_TextChanged"></asp:TextBox> 
+                 
+                 <br /> 
                 </td>
+              
           </tr>
 
         <tr>
-                <td class="Contact">Message : </td>
+                <td class ="contactlabel">Message : </td>
                 <td>
-                    <textarea id="TextArea1" cols="20" rows="2"></textarea>
+                    <textarea id="TxtMsg" cols="30" rows="6"></textarea>
+                    
+                    <br />
+                    
                 </td>
           </tr>
         
         
         </table>
-
+    
+        
+    </section>
 </asp:Content>
